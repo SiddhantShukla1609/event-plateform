@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    align-items: center;
+    color:white;
+    align-content: center;
+    text-align: center;
+}
+#container{
+   background-color: rgb(145, 71, 71);
+    
+}
+.nav{
+    display:inline;
+    margin-left:42px;
+    cursor: pointer;
+}
+
+#font{
+    cursor:pointer;
+}
+#navigation-bar{
+     padding:32px;
+   
+
+}
+.img{
+    z-index: -3;
+    width: 100vh;
+    text-align: center;
+    
+}
+
+#footer{
+    height:200px;
+    width:100%;
+    background-color:rgb(17, 15, 15)
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> event </title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div id="container">
+        <ul id="navigation-bar">
+            <li class="nav">HOME</li>
+        
+            <li class="nav">
+                INDUSTRIES <select name="select" id="industries">  </select> </li> 
+            <li class="nav" >  UNIVERSITIES    <select name="select" id="universities">  </select>   </li>
+            <li class="nav" onclick="institutes()">INSTITUTION   <select name="select" id="institution" onclick="institutes()">  </select>   </li>
+            <li class="nav">CELEBRITIES  <select name="select" id="celebrities">  </select>  </li>
+            <li class="nav">GENERAL EVENT    <select name="select" id="general-event">  </select>   </li>
+            <li class="nav"> Register Here <i class="fa-solid fa-cash-register">  </i>  </li>
+            <li class="nav"  onclick=" closemodal()" > SIGN IN </li>  <i class="fa-solid fa-user-plus" id="font" onclick="showmodal()"></i>
+            
+        </ul>
+        
+            <!--SIGN IN AND LOGIN SECTION -->
+    </div>
+    <div class="overlay"></div> 
+<div class="loginform">
+  <span onclick=" closemodal()">&times</span>
+  <form>
+    <div>
+    <label>  user name </label>
+    <input type="text">
+  </div>
+  <div>
+    <label for=""> Password </label>
+    <input type="password">
+  </div>
+  <button class="btn-1"> login </button>
+  <button class="btn-1"> Sign up</button>
+  </form>
+</div>
+
+
+    <div class="img">
+        <img src="https://i0.wp.com/blog.inevent.com/wp-content/uploads/2021/06/Leadership-in-event-management.jpg?fit=1180%2C570&ssl=1" alt="event">
+    </div>
+    <div id="footer" class="footer">
+    <footer>
+        <h1>  FOOTER  SECTION </h1>
+        <div id="footer" class="footer">
+    </footer>
+</div>
+   <script src="index.js">
+
+   </script>
+</body>
+</html>
